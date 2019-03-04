@@ -9,3 +9,10 @@ This works
 But my custom server does not
 
     node ./server.js
+
+
+UPDATE
+
+Explicitly adding `NODE_ENV=development` works
+
+    NODE_ENV=development node ./server.js
